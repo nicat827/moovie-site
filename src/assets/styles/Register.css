@@ -1,0 +1,66 @@
+.register-div {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 50px -3px rgba(158,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 50px -3px rgba(158,0,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 50px -3px rgba(158,0,0,0.75) inset;
+    background-image: url("../img//login-back.jpg");
+    
+}
+
+
+ #filled-basic {
+    background-color: rgba(121, 109, 109, 0.393);
+    border-radius: 6px 6px 0 0;
+   
+ 
+ }
+
+ .label {
+    color: rgb(158,0,0);
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: monospace;
+ }
+
+.form-div {  
+    display: flex;
+    margin-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+    width: 61vw;
+    padding: 10px;
+    flex-direction: column;
+    height: 60vh;
+    background-color:rgba(0, 0, 0, 0.374);
+    border-radius: 8px;
+   
+}
+
+.reg-btn {
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding: 15px 20px;
+    border: 2px solid rgb(250,0,0);
+    border-radius: 5px;
+    color: rgb(216, 202, 202);
+    transition: 1s;
+    margin-bottom: 20px;
+}
+
+.inp {
+    outline: none;
+    padding: 10px 5px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 8px;
+    min-width: 100px;
+    background-color: rgba(0, 0, 0, 0.51) !important;
+}
+

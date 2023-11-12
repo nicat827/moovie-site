@@ -1,0 +1,72 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 90vw;
+      
+}
+
+
+
+.card {
+    margin: 15px;
+}
+
+
+.not-found {
+  width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 50px -3px rgba(158,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 50px -3px rgba(158,0,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 50px -3px rgba(158,0,0,0.75) inset;
+    background-image: url("../img//login-back.jpg");
+}
+
+.err {
+  color: rgb(158,0,0);
+  font-weight: 500;
+  animation-name: shadow;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  font-size: 45px;
+}
+
+@keyframes shadow {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: 0px 0px 50px rgba(231,13,13,1);
+  }
+
+  100% {
+    text-shadow: none;
+  }
+}
+
+
+.err-div {  
+  display: flex;
+  margin-bottom: 45px;
+  justify-content: center;
+  align-items: center;
+  width: 61vw;
+  padding: 10px;
+  flex-direction: column;
+  height: 60vh;
+  background-color:rgba(0, 0, 0, 0.374);
+  border-radius: 8px;
+ 
+}

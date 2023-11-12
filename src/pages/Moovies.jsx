@@ -37,7 +37,7 @@ const Moovies = () => {
        
         try {
             if (searchValue) { 
-                const response = await axios.get("http://api.tvmaze.com/search/shows", {params:{q:searchValue}})
+                const response = await axios.get("https://api.tvmaze.com/search/shows", {params:{q:searchValue}})
                 setLoader(false)
                 setPagesArr([])
                 setAllMoovies(response.data)
